@@ -1,4 +1,4 @@
-import * as oicq from "oicq";
+import * as oicq from "oicq-icalingua-plus-plus";
 type MessageEventData = oicq.PrivateMessageEventData | oicq.GroupMessageEventData;
 type NoticeEventData = oicq.FriendNoticeEventData | oicq.GroupNoticeEventData;
 

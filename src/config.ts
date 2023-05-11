@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import * as oicq from 'oicq';
+import * as oicq from 'oicq-icalingua-plus-plus';
 import * as vscode from 'vscode';
 import { ctx, client, NOOP } from "./global";
 

@@ -12,13 +12,13 @@ let facePath = webview.faces_path;
 
 /**
  * 群员列表
- * @type {Map<number, import("oicq").MemberInfo>}
+ * @type {Map<number, import("oicq-icalingua-plus-plus").MemberInfo>}
  */
 let members = new Map;
 
 /**
  * 群资料
- * @type {import("oicq").GroupInfo}
+ * @type {import("oicq-icalingua-plus-plus").GroupInfo}
  */
 let ginfo;
 
@@ -183,7 +183,7 @@ function sendMsg() {
 
 /**
  * 生成系统消息
- * @param {import("oicq").GroupNoticeEventData | import("oicq").FriendNoticeEventData} data 
+ * @param {import("oicq-icalingua-plus-plus").GroupNoticeEventData | import("oicq-icalingua-plus-plus").FriendNoticeEventData} data 
  */
 function genSystemMessage(data) {
     let msg = "";
@@ -282,7 +282,7 @@ function appendRecalledText(message_id) {
 
 /**
  * 生成一般消息
- * @param {import("oicq").PrivateMessageEventData | import("oicq").GroupMessageEventData} data 
+ * @param {import("oicq-icalingua-plus-plus").PrivateMessageEventData | import("oicq-icalingua-plus-plus").GroupMessageEventData} data 
  */
 function genUserMessage(data) {
     if (document.querySelector("#" + filterMsgIdSelector(data.message_id))) {
@@ -341,7 +341,7 @@ function genAvaterUrl(user_id) {
 
 /**
  * 生成消息字符串
- * @param {import("oicq").MessageElem[]} message 
+ * @param {import("oicq-icalingua-plus-plus").MessageElem[]} message 
  */
 function parseMessage(message) {
     let msg = "";

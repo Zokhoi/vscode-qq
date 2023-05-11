@@ -33,7 +33,7 @@
     vsc.t = Number(env.attributes.t?.value);
 
     /**
-     * @param {import("oicq").CommonEventData} data 
+     * @param {import("oicq-icalingua-plus-plus").CommonEventData} data 
      */
     function onHostMessage(data) {
         if (!data.echo) {
@@ -73,7 +73,7 @@
     };
 
     /**
-     * @type {Array<keyof import("oicq").Client>}
+     * @type {Array<keyof import("oicq-icalingua-plus-plus").Client>}
      */
     const available_apis = [
         "sendPrivateMsg", "sendGroupMsg", "deleteMsg", "getChatHistory",

@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import * as oicq from 'oicq';
+import * as oicq from 'oicq-icalingua-plus-plus';
 
 interface ContactId {
     self: number,

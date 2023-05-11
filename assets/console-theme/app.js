@@ -63,7 +63,7 @@ function filterXss(str) {
 
 /**
  * 生成聊天消息
- * @param {import("oicq").PrivateMessageEventData | import("oicq").GroupMessageEventData} data 
+ * @param {import("oicq-icalingua-plus-plus").PrivateMessageEventData | import("oicq-icalingua-plus-plus").GroupMessageEventData} data 
  */
 function genUserMessage(data) {
     return `<div class="cmsg">
@@ -78,7 +78,7 @@ function genUserMessage(data) {
 
 /**
  * 生成系统消息
- * @param {import("oicq").GroupNoticeEventData | import("oicq").FriendNoticeEventData} data 
+ * @param {import("oicq-icalingua-plus-plus").GroupNoticeEventData | import("oicq-icalingua-plus-plus").FriendNoticeEventData} data 
  */
 function genSystemMessage(data) {
     let msg = "";

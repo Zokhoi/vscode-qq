@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as crypto from 'crypto';
 import * as vscode from 'vscode';
-import * as oicq from 'oicq';
+import * as oicq from 'oicq-icalingua-plus-plus';
 import { client, setClient } from "./global";
 import { openConfigFile, deleteToken, genClientConfig, getConfig, setConfig } from "./config";
 import { initLists } from "./explorer";
